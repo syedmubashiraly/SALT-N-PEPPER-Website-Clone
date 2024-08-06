@@ -3,77 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body>
-    
-    <body style="background-color: black;">
-    
-        <div class="container">
-            
-                <div class="nav">
-                    <div class="img">
-                
-                    <nav>
-                        <a href="index.html">Home</a>
-                        <a href="">About uss</a>
-                        <a href="">Publications</a>
-                        <a href="">Feedback</a>
-            
-    
-                    <!-- button#1 -->
-                    <button type="button" class="button">
-                        <span>Get a Franchise</span>
-                    </button>
-    
-                    <!-- button#2 -->
-                    <button type="button" class="button2">
-                        <span class="text">Order Online      </span> 
-                        <span class="icon"> <i class="fa-solid fa-circle-arrow-right"></i></span>
-                    </button>
-                </nav>
-    
+<body style="background-color: black">
+    <div class="parent">
+        <div class="img">
+            <img class="img" src="assets/logo.png" alt="logo">
+        </div>
+        <div class="nav-bar">
+            <ul class="list">
+                <li class="li"><a href="index.html">Home</a></li>
+                <li class="li">About Us</li>
+                <li class="li">Publications</li>
+                <li class="li"><a href="feedback.html">Feedback</a></li>
+                <button class="btn1">Get a Franchise</button>
+                <button class="btn2">Order Online 
+                    <i class="fa-solid fa-arrow-right-long arrow"></i>
+                </button>
+            </ul>
+        </div>
+    </div>
+    <div class="background">
+        <div class="bg-overlay"></div>
+        <div class="background-two"></div>
+        <div class="step1">
+
+            <div class="center-h">
+                <p class="salt">Salt'n Pepper</p>
+                <h1 class="feedback">Feedback</h1>
+                <p>We'd love To Hear From You!</p>
             </div>
         </div>
-        <div>
-            <img src="assets/bgf.jpg" alt="">
+    </div>
+    <!-- ----------------step 2--------------- -->
+
+    <div class="main">
+        <div class="main-container">
+            <div class="col">
+                <p class="para">Your feedback is important to us and we greatly appreciate you filling <br />out the
+                    comment form
+                    below. We look forward to hearing from you!</p>
+                <h4 class="food">Food
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </h4>
+
+                <h4 class="service">Service
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </h4>
+                <h4 class="food">Cleanliness
+
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </h4>
+
+                <h4 class="service">Value for Money
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </h4>
+                <input type="text" name="" placeholder="Full Name" class="inp">
+                <input type="number" name="" placeholder="Phone Number" class="inp1">
+                <input type="datetime-local" name="" class="inp-date" id="">
+                <select class="select">
+                    <option disabled selected value="Select Branches">Select Branches</option>
+                    <option>Gulshan</option>
+                    <option>Nazimabad</option>
+                    <option>Hyderi</option>
+                    <option>Burns Road</option>
+                    <option>Kareemabad</option>
+                    <option>Ayesha Manzil</option>
+                </select>
+                <input type="email" placeholder="Email" class="mail" name="" id="">
+                <textarea name="" placeholder="Suggestions (if any)" cols="86" rows="5"></textarea>
+                <p class="para-menu">Kindly incdicate your favourite items from our menu.</p>
+                <div class="radio">
+                    <p>1. <br> <input type="text"></p>
+                    <p>2. <br> <input type="text"></p>
+                    <p>3. <br><input type="text">
+                    </p>
+                </div>
+                <h3 class="para-menu1">Are you satisfied with our current menu?</h3>
+
+                <label class="yes"><input class="yes" type="radio" name="Menu" id=""> Yes</label>
+                <label class="no"><input type="radio" name="Menu" id=""> No</label>
+                <h3 class="para-menu"> If not, what new food items would you like us to add?</h3>
+                <div class="radio">
+                    <p>1. <br> <input type="text"></p>
+                    <p>2. <br> <input type="text"></p>
+                    <p>3. <br><input type="text">
+                    </p>
+
+                </div>
+                <h3 class="para-menu"> Have you visited our Social Media pages & website?</h3>
+                <input class="check" type="checkbox">Instagram <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                <input class="check" type="checkbox"> Facebook <i class="fa-brands fa-facebook fa-beat-fade"></i>
+                <input class="check" type="checkbox">Twiter <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                <input class="check" type="checkbox">Website <i class="fa-brands fa-internet-explorer fa-beat-fade"></i>
+                <br>
+                <button class="btn">Submit</button>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col">
+                <div class="empty-div"></div>
+                <h3 class="Foodconsults">Foodconsults (PVT.) LTD.</h3>
+                <p class="Foodconsults-para">Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar, <br>
+                    considered by many as the pioneer
+                    restaurateur in Pakistan. The <br> organization, which has its headquarter in Lahore, prides itself
+                    on <br>
+                    developing and growing a unique chain of restaurants known as the <br> Pepper Restaurants.
+                    Salt’n
+                    Pepper restaurants are Pakistan’s most <br> recognized and distinguished hospitality brand with a
+                    history
+                    of market <br> innovation and excellence in restaurant chain operations.</p>
+
+                <h2 class="map">Contact Us</h2>
+                <iframe class="iframe-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d108850.42496827773!2d74.31496677227537!3d31.508342361646022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904fee737254d%3A0x8370603d14476306!2sFoodconsults%20(Pvt)%20Ltd!5e0!3m2!1sen!2sus!4v1722452255275!5m2!1sen!2sus"
+                    width="600" height="230" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="ho">
+                    <h1>Head Office</h1>
+                    <h5>+92-42-35850931</h5>
+                    <h5>+92-42-35850930</h5>
+                    <h5>+92 42 111-100-678</h5>
+                    <h5>snpfood@brain.net.pk</h5>
+                    <h5>
+                        23 Usman Block, New Garden Town, Lahore, Pakistan</h5>
+                </div>
+            </div>
+
         </div>
-        <section>
-            <form >
-   
-                <label for=""></label><font color="white"></font>  <input placeholder="FIRST NAME" type="text">
-                <label for=""></label><font color="white"></font>  <input placeholder="Contact no" type="number"><br>
-                <!-- <label for=""></label><input placeholder="select branch" type="text"> -->
-                <select>
-                    <option value="">Select Branch</option>
-                    <option value="">India</option>
-                    <option value="">Aghanistan</option>
-                    <option value="">Iran</option>
-                </select><br>
+    </div>
 
-                <label for=""></label>EMAIL<input placeholder="EMAIL" required="Enter Email Address " type="text"><br><br>
-                <label for=""></label><textarea placeholder="Sugestions (if any)" cols="30" rows="5"></textarea><br><br>
+    <!-- -----------------footer----------- -->
 
-                
-                <label for=""></label><font color="white">Kindly incdicate your favourite items from our menu.</font><br>
-                <input  type="text"><input  type="text"><input  type="text"><br><br>  
 
-                <label for=""></label><font color="white">Are you satisfied with our current menu?</font><br>
-                <input type="radio" name="ques" id="yes">
-                <label for=""><font color="white">Yes</font></label>
-                <input type="radio" name="ques" id="no">
-                <label for=""> <font color="white">No</font><br><br>
+    <div class="main-footer">
+        <div class="main-footer-div">
 
-                <label for=""></label><font color="white">If not, what new food items would you like us to add?</font><br>
-                <input  type="text"><input  type="text"><input  type="text"><br><br>
 
-                
 
-                <button class="button3" type="submit">SUBMIT</BUtton>
-                
-               </form>
 
-        </section>
+            <div class="cool">
+                <img class="footer-logo" src="./assesment/salt npepper rest logo.webp" alt="">
+                <p class="footer-para">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding
+                    service, extraordinary
+                    classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in
+                    Lahore. From family occasions to business dinner and moments of the heart, this place is where
+                    unforgettable memories are made.
+                    <br>
+                    <br>
+                    <br>
+                    Terms & conditions Privacy policy
+                </p>
+
+            </div>
+
+
+
+
+            <!-- ------2nd------/ -->
+            <div class="cool">
+                <div class="site-link">
+                    <h3>Site Links</h3>
+                    <h6>Home</h6>
+                    <h6>About Us</h6>
+                    <h6>Publications</h6>
+                    <h6>Get a Franchise</h6>
+                    <h6>Feedback</h6>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- ------3nd------/ -->
+
+            <div class="cool">
+                <div class="contact">
+                <h2>Contact Us</h2>
+                <h4>Head office Address</h4>
+                <p>23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+                <h4>Head office number</h4>
+                <p>+92 42 358 509 31</p>
+                <p>+92 42 358 509 30</p>
+                <h4>Email Address</h4>
+                <p>snpfood@brain.net.pk</p>
+                <h4>Free delivery number</h4>
+                <p>+92 42 111 100 678</p>
+                <p>+92 42 111 444 610</p>
+            </div>
+            </div>
+            <!-- ------4nd------/ -->
+
+            <div class="cool">
+                <h3>Follow Us</h3>
+ <div><img src="./assesment/app store.webp" alt=""></div>               
+ <div><img src="./assesment/google play.webp" alt=""></div>               
+            </div>
+
+        </div>
+    </div>
+
+    <hr />
+<br>
+<div class="parent-foot1">
+
+    <div><p>2023 Salt'n Peper Restaurant.</p></div>
+   <div><p>Powered By <span>tossdown.com</span></p>
+    </div> 
+
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/5f4b06f1fa.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
